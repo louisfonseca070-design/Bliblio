@@ -102,3 +102,27 @@ class Usuario {
         return `Usuario: ${this._nombre}, Documento: ${this._documento}`;
     }
 }
+class biblioteca {
+    private _nombre: string;
+    private _direccion: string;
+
+}
+
+get nombre(): string {
+        return this._nombre;
+}
+
+set nombre(value: string) {
+        this._nombre = value;
+}
+get direccion(): string {
+        return this._direccion;
+}
+set direccion(value: string) {
+        this._direccion = value;
+}
+class prestamo {
+    private _usuario: string;
+    private _documentousuario: number;
+    private _biblioteca: string;
+    private _iditem: number;
